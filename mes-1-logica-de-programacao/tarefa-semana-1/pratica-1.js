@@ -1,5 +1,5 @@
-let name 
-let email 
-let job 
-let age 
-let dream 
+let name = "Celio Rafael"
+let email = "cr2faria@gmail.com"
+let job = "Programador"
+let age = 35
+let dream = "conhecer a Grécia"
