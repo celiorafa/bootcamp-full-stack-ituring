@@ -11,8 +11,7 @@ function compra(nomeDoComprador) {
 function produto(nomeDoProduto, nomeDeQuemRecebeu, enderecoDeEntrega){
     console.log(`Fizemos a entrega do produto ${nomeDoProduto} no endereço ${enderecoDeEntrega} com sucesso!
 O seu produto foi recebido por: ${nomeDeQuemRecebeu}
-Esperamos que você esteja contente com o produto. Caso contrário, fale conosco em até 7 dias para que possamos ajudar.
-        `)
+Esperamos que você esteja contente com o produto. Caso contrário, fale conosco em até 7 dias para que possamos ajudar.`)
 
 }
 
