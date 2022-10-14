@@ -1,8 +1,8 @@
-let nomeDoComprador
-let nomeDoProduto
-let nomeDeQuemRecebeu
-let enderecoDeEntrega
-let nomeDeQuemEnviouEmail
+// nomeDoComprador
+// nomeDoProduto
+// nomeDeQuemRecebeu
+// enderecoDeEntrega
+// nomeDeQuemEnviouEmail
 
 function compra(nomeDoComprador) {
     console.log(`Olá, ${nomeDoComprador}!`)
