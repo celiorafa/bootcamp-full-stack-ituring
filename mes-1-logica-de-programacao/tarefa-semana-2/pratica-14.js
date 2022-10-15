@@ -22,4 +22,3 @@ calculoIMC(84,1.8)
 
 calculoIMC(94,1.8)
 
-calculoIMC(104,1.8)
