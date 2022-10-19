@@ -1,34 +1,43 @@
-const diaSemana = 9
+function escolhaDia(diaDaSemana){
 
-switch (diaSemana) {
+switch (diaDaSemana) {
         case 1:
-        console.log ("Segunda")
+        return "Segunda"
         break;
 
         case 2:
-        console.log ("Terça")
+        return "Terça"
         break;
 
         case 3:
-        console.log ("Quarta")
+        return "Quarta"
         break;
 
         case 4:
-        console.log ("Quinta")
+        return "Quinta"
         break;
 
         case 5:
-        console.log ("Sexta")
+       return "Sexta"
         break;
 
         case 6:
-        console.log ("Sábado")
+        return "Sábado"
         break;
 
         case 7:
-        console.log ("Domingo")
+       return "Domingo"
         break;
 
-    default: console.log (`O número ${diaSemana} não é valido para dia da semana!`)
+    default: return (`O número ${diaDaSemana} não é valido para dia da semana!`)
         break;
 }
+}
+
+console.log(escolhaDia(1))
+
+console.log(escolhaDia(3))
+
+console.log(escolhaDia(5))
+
+console.log(escolhaDia())
