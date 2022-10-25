@@ -6,9 +6,6 @@ function divisaoDuplas(turma){
     const trio = totalTurma%2;
     let j=0;
     let ultimo = ""
-    console.log(totalTurma)
-    console.log(totalGrupos)
-    console.log(trio)
 
     for (i=0;i<totalGrupos;i++){
         if (trio==true && i==(totalGrupos-1)){
