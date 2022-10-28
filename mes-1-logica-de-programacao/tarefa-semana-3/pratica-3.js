@@ -6,8 +6,7 @@ function numeroPrimo(n){
     primo = (n%i)
 
     if (primo == 0){
-        primo=false
-        return primo
+        return false
     }  
 
     i++

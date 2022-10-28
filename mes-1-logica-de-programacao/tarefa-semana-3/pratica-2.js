@@ -1,3 +1,10 @@
+let exibirImpares = n =>{
+    for (let i=1; i<=n; i+=2)
+        console.log(i)
+}
+
+
+/* minha resposta ----
 function exibirImpares(n){
     if(n>0){
         i=1
@@ -11,5 +18,6 @@ function exibirImpares(n){
     }
     else{ console.log("O número precisa ser maior que 0!")}
 
-}
-exibirImpares(1)
+} */
+
+exibirImpares(17)
