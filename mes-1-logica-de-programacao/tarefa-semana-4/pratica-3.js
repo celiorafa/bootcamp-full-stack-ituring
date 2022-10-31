@@ -1,12 +1,15 @@
 
 const seriados = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"];
 
-const busca = "Th";
+const termo = "Th";
 
-
+function busca(termo){
 let resposta = seriados.filter(function(item){
-    return item.includes(busca)
+    return item.includes(termo)
 
 })
 
- console.log(resposta)
+return resposta
+}
+
+console.log(busca(termo));

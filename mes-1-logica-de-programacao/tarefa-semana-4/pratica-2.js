@@ -3,18 +3,12 @@ const seriados = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernob
 const favorito = "Dexter";
 
 let listaSeries = (seriados, favorito) => {
-  seriados.forEach(function(item,i){
-   if (item==favorito)
-      console.log(i);
-  
-   if (item!==favorito && i==seriados.length-1)
-      console.log(undefined)
-
-
-  })
+  seriados.forEach(function (item,i){
+   
+    if (item==favorito)
+    console.log(i);
+    })
   
 }
 
-
- 
-listaSeries(seriados, favorito)
+listaSeries(seriados, favorito);
