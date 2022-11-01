@@ -25,8 +25,8 @@ function exibirFilmes(listaFilmes){
             console.log(`${item.titulo} (Nota: ${item.notaAvaliacao})`);
             console.log(`• Duração: ${item.duracao}`)
             console.log(`• Ano de publicação: ${item.anoPublicacao}`)
-            console.log(`• Gênero: ${item.genero}`)
-            console.log("")
+            console.log(`• Gênero: ${item.genero} \n`)
+            
 
     })
 }
