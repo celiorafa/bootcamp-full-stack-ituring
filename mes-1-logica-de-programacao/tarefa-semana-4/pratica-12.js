@@ -40,6 +40,7 @@ let movimentacao = [{
     let somaRetirado = 0
     let totalDep = 0
     let totalRet = 0
+    let pOUn
     extrato.forEach(function(item, i){
         if (item.movimentacao == "deposito"){
             somaTotal += item.valor;
@@ -51,12 +52,17 @@ let movimentacao = [{
             totalRet++;
         }   
 
+        if (somaTotal>0){
+          pOUn="positivo"
+        } else {
+          pOUn="negativo"
+        }
     })
     console.log(`Total de depósitos: ${totalDep}`);
     console.log(`Total de retiradas: ${totalRet}`);
     console.log(`O valor total depositado foi de: R$ ${somaDepositado}`);
     console.log(`O valor total retirado foi de: R$ ${somaRetirado}`);
-    console.log(`O saldo final de sua conta foi positivo no valor de R$ ${somaTotal}`);
+    console.log(`O saldo final de sua conta foi ${pOUn} no valor de R$ ${somaTotal}`);
   }
 
   saldoFinal(movimentacao);
