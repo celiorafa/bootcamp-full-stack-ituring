@@ -1,9 +1,11 @@
-function doisNumeros(x,y) {
-    if (x > y) {
-        console.log (x)
+function doisNumeros(x,y) 
+{
+    if (x > y) 
+    {
+        console.log (x);
     } else {
-        console.log (y)
+        console.log (y);
     }
 }
 
-doisNumeros(10,10)
+doisNumeros(10,10);

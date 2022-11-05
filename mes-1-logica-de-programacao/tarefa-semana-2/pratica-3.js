@@ -1,9 +1,10 @@
-function numeroAleatorio(){
-    const min = 0
-    const max = 10000
-    const numero = Math.random()*((max-min)+min)
+function numeroAleatorio()
+{
+    const min = 0;
+    const max = 10000;
+    const numero = Math.random()*((max-min)+min);
 
-    return parseInt(numero)
+    return parseInt(numero);
 }
 
 console.log(numeroAleatorio())
