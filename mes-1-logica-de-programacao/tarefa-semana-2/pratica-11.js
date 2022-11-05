@@ -1,6 +1,7 @@
-const color =""
-
-switch (color) {
+function decifrarCor (color)
+{
+    switch (color) 
+    {
         case "vermelha":
         console.log ("rgb(255,0,0)")
         break;
@@ -29,6 +30,9 @@ switch (color) {
         console.log ("rgb(255,0,255)")
         break;
 
-    default: console.log ("rgb(255,255,255)")
+        default: console.log ("rgb(255,255,255)")
         break;
+    }
 }
+
+decifrarCor("rosa");
